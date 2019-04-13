@@ -10,7 +10,7 @@ def speak_to_grandma(saying)
     puts "NO, NOT SINCE 1938!"
 end
 
-
+speak_to_grandma(saying)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
