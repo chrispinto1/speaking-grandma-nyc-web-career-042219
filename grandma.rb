@@ -1,6 +1,14 @@
 # Write a speak_to_grandma method.
+saying = gets.chomp
 
-def speak_
+def speak_to_grandma(saying)
+  if saying != "I LOVE YOU GRANDMA!" && saying != saying.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif saying == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  else
+    puts "NO, NOT SINCE 1938!"
+end
 
 
 # Whatever you say to grandma, she should respond with
